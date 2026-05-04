@@ -23,8 +23,9 @@ const niramit = Niramit({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — ${siteConfig.tagline}`,
-  description: siteConfig.hero.subline,
+  title: "Arkkarawin R. — Freelance Web Developer",
+  description:
+    "รับออกแบบและพัฒนาเว็บไซต์ทุกรูปแบบ Landing Page, เว็บไซต์เต็มรูปแบบ และระบบหลังบ้าน",
 };
 
 export default function RootLayout({
