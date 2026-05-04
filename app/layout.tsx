@@ -1,16 +1,24 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Athiti, Sarabun, Niramit } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
+const athiti = Athiti({
+  subsets: ["latin", "thai"],
+  weight: ["200", "300", "400", "500", "600", "700"],
+  variable: "--font-heading",
   display: "swap",
 });
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
+const sarabun = Sarabun({
+  subsets: ["latin", "thai"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-body",
+  display: "swap",
+});
+const niramit = Niramit({
+  subsets: ["latin", "thai"],
+  weight: ["200", "300", "400", "500", "600", "700"],
+  variable: "--font-accent",
   display: "swap",
 });
 
@@ -25,7 +33,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="th" className={`${playfair.variable} ${inter.variable}`}>
+    <html
+      lang="th"
+      className={`${athiti.variable} ${sarabun.variable} ${niramit.variable}`}
+    >
       <body className="font-sans">{children}</body>
     </html>
   );

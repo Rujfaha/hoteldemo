@@ -11,10 +11,25 @@ html {
   scroll-behavior: smooth;
 }
 
+html[lang="th"] {
+  /* ป้องกันภาษาไทยขึ้นบรรทัดกลางคำ */
+  word-break: normal;
+  overflow-wrap: break-word;
+  line-break: auto;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 @layer components {

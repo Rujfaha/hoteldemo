@@ -30,11 +30,15 @@ export default function Amenities() {
           <p className="uppercase tracking-[0.3em] text-xs text-accent mb-4">
             What We Offer
           </p>
-          <h2 className="font-display text-3xl sm:text-5xl text-ink-900 mb-4">
-            สิ่งอำนวยความสะดวกระดับพรีเมียม
+          <h2 className="font-display text-3xl sm:text-5xl leading-tight text-ink-900 mb-4 text-balance">
+            สิ่งอำนวยความสะดวก
+            <br className="hidden sm:inline" />
+            <span className="sm:hidden"> </span>
+            ระดับพรีเมียม
           </h2>
-          <p className="text-ink-700/70">
-            ทุกการเข้าพักของท่านมาพร้อมการบริการและสิ่งอำนวยความสะดวกที่คัดสรรมาอย่างดี
+          <p className="text-ink-700/70 leading-relaxed text-pretty">
+            ทุกการเข้าพักของท่านมาพร้อมการบริการและสิ่งอำนวยความสะดวก
+            ที่คัดสรรมาอย่างดี
           </p>
         </Reveal>
 

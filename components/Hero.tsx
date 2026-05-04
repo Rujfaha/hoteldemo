@@ -29,15 +29,18 @@ export default function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15 }}
-            className="font-display text-4xl sm:text-6xl md:text-7xl leading-[1.05] mb-6"
+            className="font-display text-4xl sm:text-6xl md:text-7xl leading-[1.15] mb-6 text-balance"
           >
-            {siteConfig.hero.headline}
+            พักผ่อนอย่างมีระดับ
+            <br className="hidden sm:inline" />
+            <span className="sm:hidden"> </span>
+            ใจกลางเมืองน่าน
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-base sm:text-lg text-white/85 mb-10 max-w-xl mx-auto"
+            className="text-base sm:text-lg text-white/85 mb-10 max-w-xl mx-auto leading-relaxed text-pretty"
           >
             {siteConfig.hero.subline}
           </motion.p>

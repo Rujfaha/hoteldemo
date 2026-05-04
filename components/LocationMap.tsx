@@ -12,11 +12,12 @@ export default function LocationMap() {
           <p className="uppercase tracking-[0.3em] text-xs text-accent mb-4">
             Find Us
           </p>
-          <h2 className="font-display text-3xl sm:text-5xl text-ink-900 mb-4">
+          <h2 className="font-display text-3xl sm:text-5xl leading-tight text-ink-900 mb-4 text-balance">
             ที่ตั้งโรงแรม
           </h2>
-          <p className="text-ink-700/70">
-            ตั้งอยู่ในทำเลที่เดินทางสะดวก ใกล้แหล่งท่องเที่ยวสำคัญ
+          <p className="text-ink-700/70 leading-relaxed text-pretty">
+            ตั้งอยู่ในทำเลที่เดินทางสะดวก
+            ใกล้แหล่งท่องเที่ยวสำคัญของจังหวัดน่าน
           </p>
         </Reveal>
 

@@ -6,7 +6,7 @@ export const siteConfig = {
     subline:
       "สัมผัสบรรยากาศอันอบอุ่นแบบล้านนา ผสานความหรูหราร่วมสมัย ท่ามกลางขุนเขาและวัฒนธรรมเมืองน่านอันงดงาม",
     image:
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1920&q=80",
+      "https://plus.unsplash.com/premium_photo-1661874901387-7d272fa36c43?q=80&w=1095&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   contact: {
     phone: "099 382 2802",
