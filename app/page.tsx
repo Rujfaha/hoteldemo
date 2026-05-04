@@ -56,6 +56,19 @@ const demos = [
     desc: "โทนเขียว-ครีม ธรรมชาติ สงบ เน้นราคาและโปรโมชั่น",
     tags: ["Cormorant Garamond", "Sage Green", "Price Table"],
   },
+  {
+    id: "studyplan",
+    href: "https://studyplan.totalh.net/",
+    external: true,
+    title: "Study Plan",
+    location: "Web Application",
+    color: "from-[#6366f1] to-[#4f46e5]",
+    ring: "ring-[#6366f1]/30",
+    image:
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=800&auto=format&fit=crop",
+    desc: "ระบบวางแผนการเรียน จัดตารางคอร์ส และติดตามความก้าวหน้า",
+    tags: ["Next.js", "Full Stack", "Dashboard"],
+  },
 ];
 
 const services = [
@@ -217,12 +230,12 @@ export default function PortfolioPage() {
               ตัวอย่างผลงาน
             </h2>
             <p className="mt-3 text-white/50 max-w-md mx-auto">
-              Landing Page สำหรับโรงแรม/รีสอร์ท 3 สไตล์ที่แตกต่างกัน
+              ผลงานเว็บไซต์ที่เคยทำ ทั้ง Landing Page และ Web App
               กดเข้าไปดูเต็มๆ ได้เลย
             </p>
           </motion.div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {demos.map((d, i) => (
               <motion.div
                 key={d.id}
@@ -235,6 +248,7 @@ export default function PortfolioPage() {
                 <Link
                   href={d.href}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className={`group block bg-white/[0.03] border border-white/[0.06] rounded-3xl overflow-hidden hover:ring-4 ${d.ring} transition-all duration-300 hover:-translate-y-1`}
                 >
                   {/* Image */}
