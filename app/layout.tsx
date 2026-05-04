@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Athiti, Sarabun, Niramit } from "next/font/google";
+import { Athiti, IBM_Plex_Sans_Thai, Niramit } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 
@@ -9,9 +9,9 @@ const athiti = Athiti({
   variable: "--font-heading",
   display: "swap",
 });
-const sarabun = Sarabun({
+const plexThai = IBM_Plex_Sans_Thai({
   subsets: ["latin", "thai"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-body",
   display: "swap",
 });
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html
       lang="th"
-      className={`${athiti.variable} ${sarabun.variable} ${niramit.variable}`}
+      className={`${athiti.variable} ${plexThai.variable} ${niramit.variable}`}
     >
       <body className="font-sans">{children}</body>
     </html>
