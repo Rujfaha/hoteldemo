@@ -64,8 +64,7 @@ const demos = [
     location: "Web Application",
     color: "from-[#6366f1] to-[#4f46e5]",
     ring: "ring-[#6366f1]/30",
-    image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=800&auto=format&fit=crop",
+    image: "/studyplan.png",
     desc: "ระบบวางแผนการเรียน จัดตารางคอร์ส และติดตามความก้าวหน้า",
     tags: ["Next.js", "Full Stack", "Dashboard"],
   },
