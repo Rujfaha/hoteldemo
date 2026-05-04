@@ -16,6 +16,16 @@ export default function Footer() {
             <li>{siteConfig.contact.phone}</li>
             <li>{siteConfig.contact.email}</li>
             <li>{siteConfig.contact.address}</li>
+            <li>
+              <a
+                href={siteConfig.contact.facebookHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                Facebook: {siteConfig.contact.facebook}
+              </a>
+            </li>
           </ul>
         </div>
         <div>

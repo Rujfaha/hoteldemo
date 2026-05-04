@@ -15,6 +15,9 @@ export const siteConfig = {
     lineHref: "https://line.me/R/ti/p/@arkkarawinhotel",
     email: "zegram5599@gmail.com",
     address: "อำเภอเมืองน่าน จังหวัดน่าน 55000",
+    facebook: "Arkkarawin Rujiprach",
+    facebookHref:
+      "https://web.facebook.com/arkkarawin.rujiprach.5/?locale=th_TH",
   },
   // พิกัดใจกลางเมืองน่าน — ปรับเป็นพิกัดโรงแรมจริงได้
   location: {

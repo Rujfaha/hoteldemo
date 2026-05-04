@@ -1,5 +1,5 @@
 "use client";
-import { Phone, MessageCircle } from "lucide-react";
+import { Phone, MessageCircle, Facebook } from "lucide-react";
 import Reveal from "./Reveal";
 import { siteConfig } from "@/config/site";
 
@@ -43,6 +43,15 @@ export default function ContactCTA() {
             >
               <MessageCircle size={18} />
               ติดต่อทาง LINE
+            </a>
+            <a
+              href={contact.facebookHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-ghost"
+            >
+              <Facebook size={18} />
+              Facebook
             </a>
           </div>
         </Reveal>
